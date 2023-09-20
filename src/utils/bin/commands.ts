@@ -65,9 +65,9 @@ export const team = async (args: string[]): Promise<string> => {
   @@           @@        @@        @@        <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
    @@             @@@@@@          @@         <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>
      @@@                        @@@         -----------
-        @@@                  @@@ @@          
-         @|  @@@@@@@@@@@@@@@@   @@           
-         @|                      @@         `;
+        @@@                  @@@ @@         
+         @|  @@@@@@@@@@@@@@@@   @@          
+         @|                      @@        `;
 };
 
 const facts = ["Relix was named after a combination of 'Retro' and 'Helix'.", "The first line of code at Relix was written at 3:33 am."];
