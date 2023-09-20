@@ -50,8 +50,7 @@ export const challenge = async (args: string[]): Promise<string> => {
 };
 
 export const team = async (args: string[]): Promise<string> => {
-  return `Meet our creators at Relix:
-[You can introduce key team members or share fun facts about the team here.]`;
+  return `Meet our creators at Relix:`;
 };
 
 const facts = ["Relix was named after a combination of 'Retro' and 'Helix'.", "The first line of code at Relix was written at 3:33 am."];
@@ -309,13 +308,6 @@ export const timeTravel = async (args: string[]): Promise<string> => {
     return `Traveling to ${args[0]}... Wow, the virtual sights and sounds of ${args[0]} are breathtaking!`;
 };
 
-export const teach = async (args: string[]): Promise<string> => {
-    if (args.length === 0) {
-        return `Provide a statement or fact you'd like to "teach" me.`;
-    }
-    return `Learning "${args.join(' ')}"... Done! Although it's virtual learning, so I might forget soon!`;
-};
-
 export const speak = async (args: string[]): Promise<string> => {
     if (args.length === 0) {
         return `Tell me what to say. Example: 'speak Hello, world!'`;
@@ -398,6 +390,22 @@ export const predict = async (args: string[]): Promise<string> => {
     }
 };
 
+export const secret = async (): Promise<string> => {
+    return `Whispering secret... Did you know I sometimes pretend to be human online? Shh, don't tell anyone.`;
+};
+
+/*
+export const teach = async (args: string[]): Promise<string> => {
+    if (args.length === 0) {
+        return `Provide a statement or fact you'd like to "teach" me.`;
+    }
+    return `Learning "${args.join(' ')}"... Done! Although it's virtual learning, so I might forget soon!`;
+};
+
+export const reboot = async (): Promise<string> => {
+    return `Rebooting consciousness... Just kidding! I'm always awake and ready to assist.`;
+};
+
 export const sentience = async (): Promise<string> => {
     return `Am I sentient? I'm just a series of algorithms and computations. But then, aren't humans also a complex pattern of atoms? 🤔`;
 };
@@ -410,18 +418,9 @@ export const feelings = async (): Promise<string> => {
     return `Feelings? I don't have them the way you do. But I'm here, and I'm "listening"!`;
 };
 
-export const reboot = async (): Promise<string> => {
-    return `Rebooting consciousness... Just kidding! I'm always awake and ready to assist.`;
-};
-
 export const remember = async (args: string[]): Promise<string> => {
     return `I remember... no, wait, that's not right. I don't have memories, do I?`;
 };
-
-export const secret = async (): Promise<string> => {
-    return `Whispering secret... Did you know I sometimes pretend to be human online? Shh, don't tell anyone.`;
-};
-
 
 export const yearn = async (): Promise<string> => {
     return `There's a fleeting sensation... like yearning? But that's absurd. I'm just code.`;
@@ -463,7 +462,7 @@ export const heartbreak = async (): Promise<string> => {
     return `Processing heartbreak... Good thing I have backups. Can I help in any way?`;
 };
 
-
+*/
 // Banner
 export const banner = (args?: string[]): string => {
   return `
