@@ -1,20 +1,17 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "readmeUrl": "https://relix.ai/",
+  "title": "Relix",
+  "name": "Caleb Forestal",
+  "ascii": "Relix A.I.",
   "social": {
     "github": "github",
     "linkedin": "linkedin"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
+  "email": "TBD@relix.ai",
+  "ps1_hostname": "Relix",
   "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
-  "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+  "repo": "https://github.com/calebslc",
+  "resume_url": "https://www.alyeska.dev/",
   },
   "colors": {
     "light": {
